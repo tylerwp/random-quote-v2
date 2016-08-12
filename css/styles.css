@@ -36,7 +36,7 @@ body {
   position: absolute;
 }
 .source {
-  font-size: 1.25rem;;
+  font-size: 1.25rem;
   letter-spacing: 0.05em;
   line-height: 1.1;
   text-align: right;
@@ -92,4 +92,21 @@ body {
 
 .source_link, a:link, a:visited, a:hover, a:active {
     color:#fff;
+}
+
+.extraInfo {
+  font-size: 1.05rem;
+  letter-spacing: 0.05em;
+  line-height: 1.1;
+  text-align: right;
+  margin-right: 4em;
+  display: none;
+  background-color: #777777;
+  padding: 2.00rem;
+}
+.extraInfo span{
+  padding-right: 1.05rem;
+}
+.srcImg{
+  float: left;
 }

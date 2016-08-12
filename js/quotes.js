@@ -8,7 +8,8 @@ var quotes = [
         source:'Benjamin Franklin',
         wikipedia:'https://en.wikipedia.org/wiki/Benjamin_Franklin',
         Born:'January 17, 1706',
-        Died:'April 17, 1790'
+        Died:'April 17, 1790',
+        Image:'ben.png'
 
     },
     {
@@ -18,7 +19,8 @@ var quotes = [
         citation:'Detroit News',
         year:1927,
         Born:'July 30, 1863',
-        Died:'April 7, 1947'
+        Died:'April 7, 1947',
+        Image:'ford.png'
     },
     {
         quote:'The true sign of intelligence is not knowledge but imagination.',
@@ -26,14 +28,16 @@ var quotes = [
         wikipedia:'https://en.wikipedia.org/wiki/Albert_Einstein',      
         year:1945,
         Born:'March 14, 1879',
-        Died:'April 18, 1955'
+        Died:'April 18, 1955',
+        Image:'Einstein.png'
     },
     {
         quote:'The secret of getting ahead is getting started.',
         source:'Mark Twain',  
         wikipedia:'https://en.wikipedia.org/wiki/Mark_Twain',  
         Born:'February 7, 1871',
-        Died:'April 21, 1910'
+        Died:'April 21, 1910',
+        Image:'mark.png'
     },
     {
         quote:'Those who cannot understand how to put their thoughts on ice should not enter into the heat of debate.',
@@ -42,27 +46,19 @@ var quotes = [
         citation:'Leipziger Volkszeitung',
         year:1896,
         Born:'October 15 1844',
-        Died:'August 25 1900'
+        Died:'August 25 1900',
+        Image:'Nietzsche.png'
+    },
+    {
+        quote:'The ego is not master in its own house.',
+        source:'Sigmund Freud',  
+        wikipedia:'https://en.wikipedia.org/wiki/Sigmund_Freud',
+        citation:'The Ego and the Id',
+        year:1923,
+        Born:'May 6, 1856',
+        Died:'September 23, 1939',
+        Image:'Sigmund.png'
     }
-]
+];
 
 
-
-
-
-/*
-    Create an array of JavaScript objects --
-        Create an array of JavaScript objects to hold the data for your quotes. 
-        Name array [quotes]. 
-        The [quotes] array should be accessible in the global scope.
-
-        Each quote object should have the following properties:
-        {
-            quote: 'contains a string: the text of the quote to display on the page',
-            source: 'contains a string identifying the creator of the quote. For example: "Mark Twain" or "Traditional Irish proverb"',
-            *citation: 'optional...contains a string identifying the publication the quote appears in. For example, "Famous Anonymous Jokes". If there is no known publication, then do not include this property on the object.',
-            *year: 1997 //property which contains a number identifying the date of the quote. For example, 1997. If there is no known date, then do not include this property on the object.//
-        }
-        Q:How to handle a not included property in a object?
-        *optional
-*/
