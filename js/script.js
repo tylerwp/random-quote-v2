@@ -60,7 +60,20 @@ function getRandomQuote(){
 
 */
 function printQuote(){
-    document.getElementById(uote-box).innerHTML = "";
+    var QuoteObj = getRandomQuote();
+    var html = '<p class="quote">' + QuoteObj.quote + '</p>' +
+               '<p class="source"><a href="#" class="source_link">' + QuoteObj.source + '</a>';
+
+    //check for undefined values. Is there a better way to do this?
+    if(QuoteObj.citation != undefined){
+        html += '<span class="citation">' + QuoteObj.citation + '</span>';
+    }
+    if(QuoteObj.year != undefined){
+        html += '<span class="year">' + QuoteObj.year + '</span>';
+    }
+    html += '</p>';
+
+    document.getElementById('quote-box').innerHTML = html;
 }
 
 
@@ -77,6 +90,6 @@ function printQuote(){
 */
 
 
-
-
+//first run
+printQuote();
 

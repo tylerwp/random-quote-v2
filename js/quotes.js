@@ -15,7 +15,7 @@ var quotes = [
         quote:'Quality means doing it right when no one is looking.',
         source:'Henry Ford',
         wikipedia:'https://en.wikipedia.org/wiki/Henry_Ford',
-        citation:'Detroit News 1927',
+        citation:'Detroit News',
         year:1927,
         Born:'July 30, 1863',
         Died:'April 7, 1947'
@@ -40,6 +40,7 @@ var quotes = [
         source:'Friedrich Nietzsche',  
         wikipedia:'https://en.wikipedia.org/wiki/Friedrich_Nietzsche',
         citation:'Leipziger Volkszeitung',
+        year:1896,
         Born:'October 15 1844',
         Died:'August 25 1900'
     }
